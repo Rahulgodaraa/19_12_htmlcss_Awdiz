@@ -178,6 +178,79 @@
             right: 10px;
         }
 
+  /* Empowering Section */
+  .empowering-section {
+    padding: 60px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.empowering-container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.empowering-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.empowering-container {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.empowering-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.12);
+}
+
+.empowering-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.empowering-content h2 {
+    font-size: 2.5em;
+    color: #1a233a;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.empowering-content p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hyperautomation-diagram {
+    flex: 1;
+    max-width: 500px;
+    background: #1a233a;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hyperautomation-diagram img {
+    width: 100%;
+    height: auto;
+}
+
         /* Overlapping Section */
         .overlapping-section {
             display: flex;
@@ -312,6 +385,177 @@
     padding-left: 30px;
     
 }
+
+/* Contact Form Styles */
+.contact-section {
+    background-color: #f89406;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    color: white;
+}
+
+.contact-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: transparent;
+    color: white;
+}
+
+.contact-form input::placeholder,
+.contact-form select::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.form-full-width {
+    grid-column: 1 / -1;
+}
+
+.contact-form button {
+    background-color: #e65c00;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 20px auto;
+    display: block;
+}
+
+/* Blog Section Styles */
+.blog-section {
+    background-color: #1a233a;
+    padding: 40px 20px;
+    color: white;
+    text-align: center;
+}
+
+.blog-section h2 {
+    margin-bottom: 20px;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.blog-card {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blog-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.blog-content {
+    padding: 20px;
+    color: #333;
+}
+
+.blog-date {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.blog-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/* Partner Logo Section Styles */
+.partner-section {
+    padding: 40px 20px;
+    background-color: white;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.partner-logos img {
+    height: 50px;
+    object-fit: contain;
+}
+
+/* Core Focus Areas Additional Styles */
+.core-focus {
+    padding: 60px 20px;
+    background-color: #f8f9fa;
+}
+
+.core-focus h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #1a233a;
+    font-size: 2em;
+}
+
+.focus-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.focus-item {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.focus-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+
+.focus-item h3 {
+    color: #1a233a;
+    margin-bottom: 15px;
+}
+
+.focus-item p {
+    color: #666;
+    font-size: 0.9em;
+}
+
     </style>
 </head>
 
@@ -407,15 +651,19 @@
     </div>
 
 
-    <div class="overlapping-section">
-        <div class="content">
-            <h2>Empowering Your Business</h2>
-            <p>We provide innovative solutions to help your business thrive in a competitive world. Join hands with us
-                to explore new opportunities and achieve your goals efficiently.</p>
+ <!-- Empowering Section -->
+<section class="empowering-section">
+    <div class="empowering-container">
+        <div class="empowering-content">
+            <h2>Empowering Your Business with Hyperautomation</h2>
+            <p>Elevate, Innovate, Dominate: Hyper Automation as Your Business Game-Changer!</p>
         </div>
-        <img src="https://bradsol.com/wp-content/uploads/2023/09/banner_hyper.svg" alt="Empowering Image">
+        <div class="hyperautomation-diagram">
+            <img src="https://bradsol.com/wp-content/uploads/2023/09/banner_hyper.svg" alt="Hyperautomation Components" 
+                 onerror="this.onerror=null; this.src='/api/placeholder/500/300';">
+        </div>
     </div>
-
+</section>
 
     <!-- Grid Section -->
     <div class="grid-section">
@@ -537,6 +785,52 @@
             <img src="https://bradsol.com/wp-content/uploads/2024/03/finalsalesforce-logo.png" alt="Company 6">
         </div>
     </div>
+
+     <!-- Blog Section -->
+     <div class="blog-section">
+        <h2>Want to learn more about Hyperautomation?</h2>
+        <p>Check out our blogs where we talk about the latest in the Hyperautomation Industry!</p>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://bradsol.com/wp-content/uploads/2023/01/finance-guide-intelligent-automation.jpg" alt="Finance Guide">
+                <div class="blog-content">
+                    <div class="blog-date">28 Jun 2024</div>
+                    <h3 class="blog-title">Transform Financial Operations with Bradsol and Automation Anywhere</h3>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://bradsol.com/wp-content/uploads/2024/06/rag-stack.jpg" alt="RAG Stack">
+                <div class="blog-content">
+                    <div class="blog-date">27 Jun 2024</div>
+                    <h3 class="blog-title">The RAG Stack: Unlocking the Power of Knowledge Graphs</h3>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://bradsol.com/wp-content/uploads/2024/06/intelligent-automation-for-all.jpg" alt="Intelligent Automation">
+                <div class="blog-content">
+                    <div class="blog-date">14 Jun 2024</div>
+                    <h3 class="blog-title">Intelligent Automation For All</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <h2>Contact Us</h2>
+        <p>Get in touch with a Bradsol automation expert!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your First Name*" required>
+            <input type="text" placeholder="Your Last Name*" required>
+            <input type="email" placeholder="Your Email*" required>
+            <input type="tel" placeholder="Your Phone Number*" required>
+            <input type="text" placeholder="Your Country*" required>
+            <input type="text" placeholder="Your Organization*" required>
+            <input type="text" placeholder="Your Industry*" required>
+            <input type="text" placeholder="Your Role">
+            <textarea class="form-full-width" placeholder="What services are you looking for?" rows="4"></textarea>
+            <button type="submit">SEND</button>
+        </form>
+    </div> 
     <script>
         const leftArrow = document.querySelector('.arrow-left');
         const rightArrow = document.querySelector('.arrow-right');
